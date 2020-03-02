@@ -23,7 +23,7 @@ Employee.belongs_to :Store
 @store1.employees.create(
   first_name: "Hugh",
   last_name: "Mann",
-  hourly_rate: 50,
+  hourly_rate: 250,
 )
 
 @store2.employees.create(
@@ -31,3 +31,5 @@ Employee.belongs_to :Store
   last_name: "Sea",
   hourly_rate: 300,
 )
+@store1.save
+@store2.save
