@@ -8,3 +8,4 @@ puts "----------"
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
 @store1.name = "Hwo";
+@store1.save
